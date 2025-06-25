@@ -50,3 +50,14 @@ focusing on backend systems, database design, API development, and application s
 - A user relates to a review they give
 - A Property relates to a payment, booking and a review given.
   
+## Feature Breakdown
+- User management
+  Manage users and their activities, from registration to user profile setting, recommendations, favourites.
+- Properties management
+  Manage details and activities related to Properties. 
+  List Properties with their characteristics, cost, description, location and availability.
+- Booking System
+  Implement the booking of a room/house.
+  After one sees the listings and identifies one they like, they can proceed to booking and checkout.
+  This will also implement the payment as one books at checkout.
+
