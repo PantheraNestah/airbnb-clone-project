@@ -61,3 +61,12 @@ focusing on backend systems, database design, API development, and application s
   After one sees the listings and identifies one they like, they can proceed to booking and checkout.
   This will also implement the payment as one books at checkout.
 
+## API Security
+- Authentication: username and password authentication, use of jwt tokens to authenticate resourse access.
+- Authorization: role based authorization
+- Rate limiting and Throttling: limit No. of requests to about 100 requests per minute per ip to protect against abuse and denial-of-service (DoS) attacks.
+
+  Security is crucial for each area of the project since it is crucial to protect data, prevent abuse, and ensure only authorized access.
+
+  
+
