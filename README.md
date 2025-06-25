@@ -68,5 +68,13 @@ focusing on backend systems, database design, API development, and application s
 
   Security is crucial for each area of the project since it is crucial to protect data, prevent abuse, and ensure only authorized access.
 
+## CI/CD Pipeline
+   Continuous Integration and Continuous Deployment/Delivery is crucial to ensure code is automatically build and tested every time changes are pushed to the repository and also automatic deployment of tested code to production or staging environments.
+   This is crucial for faster deployments, Consistency and Reliability and Ealy Bug detection.
+   CI/CD Tools that we'll use are:
+   - Github Actions
+   - Docker
+   - Kubernetes
+
   
 
