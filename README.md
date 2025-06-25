@@ -5,6 +5,8 @@ focusing on backend systems, database design, API development, and application s
 ## Team Roles
 - Backend Developer
 - Database Administrator
+- DevOps Engineer
+- QA Engineer
 - Frontend Developer
 - UI/UX Designer
 
@@ -16,3 +18,35 @@ focusing on backend systems, database design, API development, and application s
 - Redis: Used for caching and session management.
 - Docker: Containerization tool for consistent development and deployment environments.
 - CI/CD Pipeline: Automated pipelines for testing and deploying code changes.
+
+## Database Design
+- Users
+  - Username
+  - Email
+  - National ID NO.
+- Property
+  - Name
+  - Location
+  - Cost
+  - Vacancy
+- Payments
+  - User
+  - Property
+  - Amount
+  - Time
+- Booking
+  - User
+  - Property
+  - Period
+  - Payment
+- Review
+  - Property
+  - User
+  - Rating
+  - Description
+
+- A user relates to a payment they make.
+- A user relates to a booking they make.
+- A user relates to a review they give
+- A Property relates to a payment, booking and a review given.
+  
